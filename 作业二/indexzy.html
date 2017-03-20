@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(21.jpg);
+}
+.header{
+	height: 40px;
+	width: 100%;
+	background-color: #e5e5e5;
+}
+.dh{
+	width: 1050px;
+	height: 40px;
+	font-size: 14px;
+	font-family: '微软雅黑';
+	color: #000;
+	padding: 12px 0 0 1px;	
+	background-color: #e5e5e5;
+	margin: 0px auto;
+}
+.connect{
+	width: 190px;
+	float: left;
+	list-style: none;
+}
+.nav{
+	float: right;
+	width: 140px;
+}
+.nav li{
+	float: left;
+	font-size: 14px;
+	font-family: '微软雅黑';
+	color: #000;
+	padding: 0 1px 0 0;
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+.header1{
+	background-color: #fff;
+	height: 95px;
+	width: 100%;
+}
+.x{
+	width: 1050px;
+	margin: 0px auto;
+}
+.logo{
+	font-size: 27px;
+	color: #00256f;
+	font-family: '微软雅黑';
+	padding: 30px 20px 0 1px;
+	float: left;
+}
+.mz{
+	font-size: 25px;
+	font-family: '微软雅黑';
+	float:left;
+	padding: 30px 0 0 0;
+}
+.yw{
+	font-size: 12px;
+	font-family: '微软雅黑';
+	list-style: none;
+}
+.nav1{
+	font-size: 14px;
+	font-family: '微软雅黑';
+	float:right;
+	width: 660px;
+	height: 95px;
+}
+.nav1 li{
+	float: left;
+	text-align: center;
+	line-height: 95px;
+	list-style: none;
+	width: 94px;
+	height: 95px;
+	position: relative;
+	overflow: hidden;
+}
+.nav1 li a{
+	display: block;
+	width: 94px;
+	height: 94px;
+	background-color:#3c9cd3;
+	position: absolute;
+	text-decoration: none;
+	transform: translateY(0px);
+}
+.nav1 li:hover a{
+	transform: translateY(-10px);
+	opacity: 0.3;
+}
+.banner{
+	width: 1050px;
+	height: 935px;
+	margin: 0 auto
+}
+.banner1{
+	height: 380px;
+	width: 1050px;
+}
+.jd{
+	width: 795px;
+	height: 380px;
+	margin: 0 auto;
+}
+.jd ul{
+	width: 220px;
+	height: 220px;
+	list-style: none;
+	border: 1px solid #ebebeb;
+	font-size: 12px;
+	font-family: '微软雅黑';
+}
+.jd img{
+	width: 220px;
+	height: 150px;
+}
+.jd li{
+	margin-left: 15px;
+}
+.tp{
+	float:left;
+	color: #989898;
+	margin-top: 15px;
+}
+.tp1{
+	float:left;
+	color: #989898;
+	margin: 15px 0 0 70px;
+	overflow: hidden;
+}
+.tp2{
+	float:right;
+	color: #989898;
+	margin-top: 15px;
+}
+.container{
+	width: 100%;
+	height: 490px;
+	background-color: #e6e8e9;
+}
+.dl{
+	width: 1050px;
+	height: 130px;
+	margin: 0 auto;
+}
+.wm{
+	width: 260px;
+	height: 60px;
+	font-size: 18px;
+	font-family: '微软雅黑';
+	text-align: center;
+	padding:55px 0 0 395px; 
+	list-style: none;
+}
+.dl1{
+	height: 130px;
+	width: 1050px;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	list-style: none;
+	margin: 0 auto;
+}
+.dl1 li{
+	padding: 10px 0 0 25px;
+}
+.box{
+	width: 1050px;
+	height: 170px;
+	margin: 0 auto;
+	border:3px solid#fff;
+	margin:15px auto;
+	overflow: hidden;
+}
+.box img{
+	width: 280px;
+	height: 180px;
+}
+.box ul{
+	width: 3800px;
+	height:170px;
+	background-color: #fff;
+	animation: turn 10s linear infinite;
+}
+.box li{
+	width: 280px;
+	height: 160px;
+	float: left;
+	margin-right:20px;
+	list-style: none;
+}.box ul:hover{
+	animation-play-state:paused; 
+}
+@keyframes turn{
+form{
+	transform: translateX(0);
+	}
+to{
+	transform: translateX(-1500px);
+	}
+}
+.gs{
+	width: 100%;
+	height: 180px;
+	background-color: #fff;
+}
+.xin{
+	width: 1050px;
+	height: 180px;
+	margin: 0 auto;
+}
+.xin h3{
+	width: 268px;
+	height: 60px;
+	font-size: 18px;
+	font-family: '微软雅黑';
+	text-align: center;
+	padding:90px 0 0 395px; 
+	list-style: none;
+}
+.zixun{
+	background-color: #a4d1ee;
+	width: 100%;
+	height: 472px;
+	display: block;
+}
+.gonggao{
+	width: 1050px;
+	height: 472px;
+	margin: 0 auto;
+}
+.button{
+	height: 110px;
+	width: 1050px;
+}
+.gonggao .xinfan{
+	background-color: #a4d1ee;
+	width: 105px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color: #fff;
+	margin-top: 45px;
+	float: left;
+	overflow: hidden;
+}
+.xinfan:hover{
+	background-color: #fff;
+	color: #a4d1ee;
+}
+.gg{
+	width: 1050px;
+	height: 330px;
+}
+.gg ul{
+	width: 666px;
+	height: 330px;
+	float: left;
+	list-style: none;
+}
+.gg li{
+	width: 666px;
+	height: 34px;
+	padding-top: 20px;
+	font-size: 14px;
+	font-family: '微软雅黑';
+	border-bottom: 1px solid#fff;
+}
+.gg li span{
+	float: right;
+	right: 80px;
+	width: 120px;
+	height: 34px;
+}
+.gg img{
+	width: 330px;
+	height: 302px;
+	padding-top: 20px;
+}
+.container1{
+	width: 100%;
+	height: 645px;
+	background-color: #fff;
+}
+.gyw{
+	width: 1100px;
+	height: 175px;
+	margin: 0 auto;
+}
+.gyw ul{
+	width: 260px;
+	height: 50px;
+	font-size: 18px;
+	font-family: '微软雅黑';
+	text-align: center;
+	padding:95px 0 0 420px; 
+	list-style: none;
+}
+.dtp{
+	width: 1100px;
+	height: 470px;
+	margin: 0 auto; 
+}
+.dtp1{
+	width: 430px;
+	height: 425px;
+	float: left;
+}
+.dtp1 .t1{
+	width: 140px;
+	height: 190px;
+	border: 1px solid #ebebeb;
+	display: block;
+	float: left;
+}
+.lb{
+	width: 263px;
+	height: 190px;
+	list-style: none;
+	float: right;
+	font-size: 14px;
+	font-family: '微软雅黑';
+	margin-left:25px; 
+}
+.lb .sa{
+	margin-top: 14px;
+}
+.t2{
+	display: block;
+	width: 430px;
+	height: 195px;
+	padding-top: 34px;
+}
+.nc{
+	width: 630px;
+	height: 425px;
+	float: right;
+	font-size: 14px;
+	font-family: '微软雅黑';
+}
+.fs{
+	list-style: none;
+}
+.fs .mf{
+	margin:20px 0 10px 1px;
+}
+input{
+	width: 630px;
+	height: 34px;
+	background-color: #f9f8f8;
+	border:1px dashed #d4d2d2;
+}
+.gz{
+	width: 630px;
+	height: 120px;
+	background-color: #f9f8f8;
+}
+button{
+	background-color: #3c9cd3;
+	width: 95px;
+	height: 30px;
+	font-size: 12px;
+	font-family: '微软雅黑';
+	color: #fff;
+	margin-top: 13px; 
+}
+.footer{
+	width: 100%;
+	height: 95px;
+	background-color: #3c9cd3;
+}
+.gzw{
+	width: 1100px;
+	height: 95px;
+	margin: 0 auto;
+}
+.kl{
+	width: 1100px;
+	height: 60px;
+}
+.kl li{
+	color: #fff;
+	font-size: 12px;
+	font-family: '微软雅黑';
+	text-align: center;
+	padding:27px 0 0 450px; 
+	width: 200px;
+	height: 25px;
+	list-style:none; 
+}
+.hb{
+	width: 1100px;
+	height: 35px;
+}
+.hb li{
+	list-style: none;
+	color: #fff;
+	font-size: 12px;
+	font-family: '微软雅黑';
+	width: 70px;
+	height: 12px;
+	float: left;
+}
+.rwym{
+	margin: 0 0 15px 345px;
+}
+.footer1{
+	width: 100%;
+	height: 35px;
+	background-color: #1c1b29;
+}
+.znbxx{
+	width: 1100px;
+	height: 35px;
+	margin: 0 auto;
+}
+.nb{
+	width: 1100px;
+	height: 35px;
+	margin-left:280px;
+}
+.jc{
+	font-size: 12px;
+	font-family: '微软雅黑';
+	width: 440px;
+	height: 35px;
+	text-align: center;
+	float: left;
+	color: #fff;
+	list-style: none;
+	padding-top: 11px;
+}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="dh">
+			<ul class="connect">
+				<li>全国电话400-000-000</li>
+			</ul>
+			<div class="nav">
+				<ul>
+					<li>设为首页丨</li>
+					<li>加入收藏</li>
+				</ul>
+			</div>
+		<div class="clear"></div>
+		</div>
+	</div>
+	<div class="header1">
+		<div class="x">
+			<ul class="logo">
+				BOYI
+			</ul>
+			<ul class="mz">秦皇岛博易科技
+				<li class="yw">Qinhuangdao BOYI Technology Co,Ltd
+				</li>
+			</ul>
+			<ul class="nav1">
+				<li>首页<a href=""></a></li>
+				<li>公司简介<a href=""></a></li>
+				<li>关于我们<a href=""></a></li>
+				<li>博易课堂<a href=""></a></li>
+				<li>博易纪要<a href=""></a></li>
+				<li>技术博客<a href=""></a></li>
+				<li>联系我们<a href=""></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<img src="22.jpg">
+	<div class="banner1">
+			<div class="jd">
+				<ul class="tp">	<img src="23.jpg">
+					<li>
+						前端开发基础:html+css网页制作,jQuery,javascript程序设计
+					</li>
+				</ul>
+				<ul class="tp1"><img src="24.jpg">
+					<li>
+						前端开发提高:angular/react,
+					</li>
+					<li>swiper.js,zepto.js,gulp,less</li>
+				</ul>
+				<ul class="tp2"><img src="25.jpg">
+					<li>
+						前端开发进阶:进入博易项目组,进行实际项目开发
+					</li>
+				</ul>			
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="dl">
+			<h3 class="wm">
+				关于我们
+				<li>
+					<img src="26.jpg">
+				</li>
+			</h3>
+		</div>
+		<div class="dl1">
+			<p>
+				<li>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;秦皇岛博易科技开发有限公司是一家专门致力于培养高素质前端开发人才的科技公司，励志为同学提供一个免费开放的学习交流平台。
+				</li>
+				<li>
+					以学员阶段性学习为主，考核通过后进行强化培训为原则；以针对企业需求，重视基础理论建设强化高端应用技能为目标；以〞公司真实项
+				</li>
+				<li>
+					目〝为教学后盾，让学员真正能够达到学以致用！
+				</li>
+			</p>
+		</div>
+		<div class="box">
+			<ul>
+				<li><img src="16.jpg"></li>
+				<li><img src="17.jpg"></li>
+				<li><img src="18.jpg"></li>
+				<li><img src="19.jpg"></li>
+				<li><img src="20.jpg"></li>
+				<li><img src="16.jpg"></li>
+				<li><img src="17.jpg"></li>
+				<li><img src="18.jpg"></li>
+				<li><img src="19.jpg"></li>
+				<li><img src="20.jpg"></li>
+		</ul>
+		</div>
+	</div>
+	<div class="gs">
+		<div class="xin">
+			<h3>
+				新闻资讯
+				<li>
+					<img src="27.jpg">
+				</li>
+			</h3>
+		</div>
+	</div>
+	<div class="zixun">
+		<div class="gonggao">
+			<div>
+				<ul class="button">
+					<li class="xinfan">最新资讯</li>
+					<li class="xinfan">网站公告</li>
+				</ul>
+			</div>
+		<div class="gg">
+			<ul>
+				<li>>&nbsp;&nbsp;&nbsp;秦皇岛博易科技公告<span>2015/03/13</span></li>
+				<li>>&nbsp;&nbsp;&nbsp;秦皇岛博易科技公告<span>2015/03/13</span></li>
+				<li>>&nbsp;&nbsp;&nbsp;秦皇岛博易科技公告<span>2015/03/13</span></li>
+				<li>>&nbsp;&nbsp;&nbsp;秦皇岛博易科技公告<span>2015/03/13</span></li>
+				<li>>&nbsp;&nbsp;&nbsp;秦皇岛博易科技公告<span>2015/03/13</span></li>
+				<li>>&nbsp;&nbsp;&nbsp;秦皇岛博易科技公告<span>2015/03/13</span></li>
+			</ul>
+			<img src="28.jpg">
+		</div>
+		</div>
+	</div>
+	<div class="container1">
+		<div class="gyw">
+			<ul>联系我们
+				<li>
+					<img src="27.jpg">
+				</li>
+			</ul>
+		</div>
+		<div class="dtp">
+			<div class="dtp1">
+				<img class="t1" src="29.jpg">
+				<ul class="lb">
+					<li><img src="31.jpg">&nbsp;&nbsp;&nbsp;&nbsp;服务热线&nbsp;：13393204123</li>
+					<li class="sa"><img src="32.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联&nbsp;&nbsp;系&nbsp;&nbsp;人&nbsp;：崔老师</li>
+					<li class="sa"><img src="33.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;博易官网：www.qhdboyi.com</li>
+					<li class="sa"><img src="34.jpg">&nbsp;&nbsp;&nbsp;&nbsp;公司传真：000-12345678</li>
+					<li class="sa"><img src="35.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮政编码：066000</li>
+					<li class="sa"><img src="36.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公司地址：秦皇岛远洋商务大厦14层</li>
+				</ul>
+				<img class="t2" src="30.jpg">
+			</div>
+			<div class="nc">
+				<ul class="fs">
+					<li>昵称<form action=""><input type="text" placeholder="名字"></form></li>
+					<li class="mf">联系电话<form action=""><input type="text" placeholder="TEL"></form></li>
+					<li class="mf">电子邮箱<form action=""><input type="text" placeholder="邮箱地址"></form></li>
+					<li class="mf">内容<form action=""><input type="text" placeholder="备注" class="gz"></form></li>
+				</ul>
+				<button>提交</button>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="gzw">
+			<ul class="kl">
+				<li>
+					关注我们:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="37.jpg">
+				</li>
+			</ul>
+			<ul class="hb">
+				<li class="rwym">网站首页&nbsp;·</li>
+				<li>&nbsp;&nbsp;&nbsp;新闻动态&nbsp;·</li>
+				<li>&nbsp;&nbsp;&nbsp;关于我们&nbsp;·</li>
+				<li>&nbsp;&nbsp;&nbsp;团队风采&nbsp;·</li>
+				<li>&nbsp;&nbsp;&nbsp;联系我们&nbsp;·</li>
+				<li>&nbsp;在线留言</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer1">
+		<div class="znbxx">
+			<ul class="nb">
+				<li class="jc">
+					©2015 秦皇岛博易科技&nbsp;&nbsp;&nbsp;版权所有冀ICP备0600521号&nbsp;&nbsp;All Rights Reserved
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
